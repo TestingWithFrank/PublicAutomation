@@ -17,6 +17,10 @@
     return [NSClassFromString(@"UIASyntheticEvents") sharedEventGenerator];
 }
 
++ (UIATarget *)uiat{
+    return [NSClassFromString(@"UIATarget") localTarget];
+}
+
 + (BOOL) checkForKeyboard {
     return [KIFTypist keyboardWindow] != nil;
 }
@@ -40,6 +44,10 @@
 
 + (void) setOrientation:(UIDeviceOrientation)orientation{
     [[self uia] setOrientation:(int)orientation];
+}
+
++ (void) setLocation:(NSDictionary *)location{
+    [[self uiat] setLocation:location];
 }
 
 
