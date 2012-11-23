@@ -31,6 +31,17 @@ typedef enum  {
 
 + (CGPoint) tapView:(UIView *)view;
 + (CGPoint) tapView:(UIView *)view atPoint:(CGPoint)point;
++ (CGPoint) downView:(UIView *)view;
++ (CGPoint) downView:(UIView *)view atPoint:(CGPoint)point;
++ (CGPoint) downPoint:(CGPoint)point;
++ (CGPoint) upView:(UIView *)view;
++ (CGPoint) upView:(UIView *)view atPoint:(CGPoint)point;
++ (CGPoint) upPoint:(CGPoint)point;
++ (CGPoint) longTapView:(UIView *)view forDuration:(NSTimeInterval)duration;
++ (CGPoint) longTapView:(UIView *)view atPoint:(CGPoint)point forDuration:(NSTimeInterval)duration;
++ (CGPoint) doubleTapView:(UIView *)view;
++ (CGPoint) doubleTapView:(UIView *)view atPoint:(CGPoint)point;
+
 
 + (NSArray *) swipeView:(UIView *)view inDirection:(PADirection)dir;
 
