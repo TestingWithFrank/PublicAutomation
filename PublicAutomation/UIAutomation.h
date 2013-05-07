@@ -37,7 +37,7 @@ struct _EventMessage {
 
 typedef struct {
     unsigned long _field1;
-    id *_field2;
+    void *_field2;
     unsigned long *_field3;
     unsigned long _field4[5];
 } CDStruct_11f37819;
