@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/TestingWithFrank/PublicAutomation.git',
-    :commit => '8c6b2556ec1bc4ef89c49c3a5c563487023b2fce'
+    :tag => "#{s.version}"
   }
 
   s.platform = :ios, '5.0'
