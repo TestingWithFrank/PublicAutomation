@@ -64,9 +64,12 @@ typedef struct {
 @class UIAElementArray;
 @class CLSimulationManager;
 
+typedef struct {} __AXObserver;
+typedef struct {} __AXUIElement;
+
 @protocol UIAXElement
-+ (BOOL)registerObserver:(struct __AXObserver *)arg1 forAXNotifications:(BOOL)arg2;
-+ (id)uiaxElementWithAXUIElementRef:(struct __AXUIElement *)arg1;
++ (BOOL)registerObserver:(__AXObserver *)arg1 forAXNotifications:(BOOL)arg2;
++ (id)uiaxElementWithAXUIElementRef:(__AXUIElement *)arg1;
 + (id)uiaxElementAtPosition:(struct CGPoint)arg1;
 + (id)uiaxSystemWideElement;
 + (id)uiaxFocusedApplicationElement;
@@ -111,7 +114,7 @@ typedef struct {
 + (void)initialize;
 + (void)_raiseAXErrorAPIDisabled;
 + (void)_raiseIfAXErrorAPIDisabled:(long)arg1;
-+ (BOOL)registerObserver:(struct __AXObserver *)arg1 forAXNotifications:(BOOL)arg2;
++ (BOOL)registerObserver:(__AXObserver *)arg1 forAXNotifications:(BOOL)arg2;
 + (id)uiaxElementWithAXUIElementRef:(struct __AXUIElement *)arg1;
 + (id)_regularAttributeNumbers;
 + (id)_regularAttributeStrings;
