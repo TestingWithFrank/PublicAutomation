@@ -30,6 +30,7 @@ typedef enum  {
 + (void) setLocation:(CGPoint)locationAsPoint;
 
 + (CGPoint) tapView:(UIView *)view;
++ (CGPoint) tapPoint:(CGPoint)point;
 + (CGPoint) tapView:(UIView *)view atPoint:(CGPoint)point;
 + (CGPoint) downView:(UIView *)view;
 + (CGPoint) downView:(UIView *)view atPoint:(CGPoint)point;
@@ -39,7 +40,9 @@ typedef enum  {
 + (CGPoint) upPoint:(CGPoint)point;
 + (CGPoint) longTapView:(UIView *)view forDuration:(NSTimeInterval)duration;
 + (CGPoint) longTapView:(UIView *)view atPoint:(CGPoint)point forDuration:(NSTimeInterval)duration;
++ (CGPoint) longTapPoint:(CGPoint)point forDuration:(NSTimeInterval)duration;
 + (CGPoint) doubleTapView:(UIView *)view;
++ (CGPoint) doubleTapPoint:(CGPoint)point;
 + (CGPoint) doubleTapView:(UIView *)view atPoint:(CGPoint)point;
 
 + (void) dragViewWithInitialDelay:(UIView *)view toPoint:(CGPoint)destPoint duration:(NSTimeInterval)duration;
