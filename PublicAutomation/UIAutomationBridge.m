@@ -7,7 +7,7 @@
 //
 #import "UIAutomationBridge.h"
 #import "UIAutomation.h"
-#import "KIFTypist.h"
+#import "PA_KIFTypist.h"
 #import "PALogging.h"
 
 #import "CGGeometry-KIFAdditions.h"
@@ -27,12 +27,12 @@
 }
 
 + (BOOL) checkForKeyboard {
-    return [KIFTypist keyboardWindow] != nil;
+    return [PA_KIFTypist keyboardWindow] != nil;
 }
 
 + (BOOL) typeIntoKeyboard:(NSString *)string {
     DLog(@"typing into keyboard: %@", string );
-    return [KIFTypist enterText:string];
+    return [PA_KIFTypist enterText:string];
 }
 
 + (CGPoint) tapView:(UIView *)view {

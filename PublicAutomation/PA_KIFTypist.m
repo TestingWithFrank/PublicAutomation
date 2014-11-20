@@ -6,7 +6,7 @@
 //
 //
 
-#import "KIFTypist.h"
+#import "PA_KIFTypist.h"
 
 #import "UIAutomationBridge.h"
 #import "CGGeometry-KIFAdditions.h"
@@ -14,14 +14,14 @@
 
 const NSTimeInterval KEYSTROKE_DELAY = 0.05f;
 
-@interface KIFTypist()
+@interface PA_KIFTypist()
 + (NSString *)_representedKeyboardStringForCharacter:(NSString *)characterString;
 + (BOOL)_enterCharacter:(NSString *)characterString history:(NSMutableDictionary *)history;
 
 + (NSArray *)_subviewsOfView:(UIView *)view withClassNamePrefix:(NSString *)prefix;
 @end
 
-@implementation KIFTypist
+@implementation PA_KIFTypist
 
 // Listed from UIApplication+KIFAdditions
 + (UIWindow *)keyboardWindow;
@@ -53,7 +53,7 @@ const NSTimeInterval KEYSTROKE_DELAY = 0.05f;
     for (NSUInteger characterIndex = 0; characterIndex < [text length]; characterIndex++) {
         NSString *characterString = [text substringWithRange:NSMakeRange(characterIndex, 1)];
         
-        if (![KIFTypist enterCharacter:characterString]) {
+        if (![PA_KIFTypist enterCharacter:characterString]) {
             return NO;
         }
     }
