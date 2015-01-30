@@ -13,6 +13,7 @@
 #import "PALogging.h"
 
 const NSTimeInterval KEYSTROKE_DELAY = 0.05f;
+const NSTimeInterval MODIFIER_DELAY = 0.1f;     // CMT: Wait longer on modifier keys
 
 @interface KIFTypist()
 + (NSString *)_representedKeyboardStringForCharacter:(NSString *)characterString;
@@ -88,6 +89,7 @@ const NSTimeInterval KEYSTROKE_DELAY = 0.05f;
     if( [[self.keyplane valueForKey:@"isShiftKeyplane"] boolValue] )
     {   
         [self tapKey:[self findKeyNamed:@"Shift"]];
+        CFRunLoopRunInMode(kCFRunLoopDefaultMode, MODIFIER_DELAY, false);   // CMT: Wait longer after modifier key
     }
 }
 
@@ -179,6 +181,7 @@ const NSTimeInterval KEYSTROKE_DELAY = 0.05f;
     // We didn't find anything, so try the symbols pane
     if (modifierKey) {
         [self tapKey:modifierKey];
+        CFRunLoopRunInMode(kCFRunLoopDefaultMode, MODIFIER_DELAY, false);   // CMT: Wait longer after modifier key
         
         // If we're back at a place we've been before, and we still have things to explore in the previous
         id /*UIKBKeyplane*/ newKeyplane = [self keyplane];
