@@ -99,7 +99,7 @@
 }
 
 + (CGPoint) longTapView:(UIView *)view atPoint:(CGPoint)point forDuration:(NSTimeInterval)duration{
-    CGPoint tapPoint = [view convertPoint:point toView:nil];
+    CGPoint tapPoint = [self tapCoordsForView:view atPoint:point];  // CMT: Copied from tapViewatPoint
     DLog(@"long tapping at (%.2f,%.2f) for %.1f seconds", tapPoint.x,tapPoint.y, duration);
     [self longTapPoint:tapPoint forDuration:duration];
     return tapPoint;
@@ -117,12 +117,13 @@
 }
 
 + (CGPoint) doubleTapView:(UIView *)view atPoint:(CGPoint)point{
-    CGPoint tapPoint = [view convertPoint:point toView:nil];
-    DLog(@"double tapping at (%.2f,%.2f)", tapPoint.x,tapPoint.y);
+    CGPoint tapPoint = [self tapCoordsForView:view atPoint:point];  // CMT: Copied from tapViewatPoint
+    DLog(@"double tapping view at (%.2f,%.2f)-->(%.2f,%.2f)", point.x, point.y, tapPoint.x,tapPoint.y); // CMT added detail
     return [self doubleTapPoint:tapPoint];
 }
 
 + (CGPoint) doubleTapPoint:(CGPoint)tapPoint {
+    DLog(@"double tapping at point (%.2f,%.2f)", tapPoint.x,tapPoint.y);
     [[self uia] sendDoubleTap:tapPoint];
     return tapPoint;
     
