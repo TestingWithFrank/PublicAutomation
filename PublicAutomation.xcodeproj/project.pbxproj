@@ -28,10 +28,67 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84CFFEB61A1E084F0017CA5A /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		84CFFEB71A1E084F0017CA5A /* NSArray-UIAExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-UIAExtras.h"; sourceTree = "<group>"; };
+		84CFFEB81A1E084F0017CA5A /* NSCopying-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCopying-Protocol.h"; sourceTree = "<group>"; };
+		84CFFEB91A1E084F0017CA5A /* NSFastEnumeration-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFastEnumeration-Protocol.h"; sourceTree = "<group>"; };
+		84CFFEBA1A1E084F0017CA5A /* NSValue-UIAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue-UIAutomation.h"; sourceTree = "<group>"; };
+		84CFFEBB1A1E084F0017CA5A /* UIAActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActionSheet.h; sourceTree = "<group>"; };
+		84CFFEBC1A1E084F0017CA5A /* UIAActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActivityIndicator.h; sourceTree = "<group>"; };
+		84CFFEBD1A1E084F0017CA5A /* UIAActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAActivityView.h; sourceTree = "<group>"; };
+		84CFFEBE1A1E084F0017CA5A /* UIAAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAAlert.h; sourceTree = "<group>"; };
+		84CFFEBF1A1E084F0017CA5A /* UIAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAApplication.h; sourceTree = "<group>"; };
+		84CFFEC01A1E084F0017CA5A /* UIAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAButton.h; sourceTree = "<group>"; };
+		84CFFEC11A1E084F0017CA5A /* UIACollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIACollectionCell.h; sourceTree = "<group>"; };
+		84CFFEC21A1E084F0017CA5A /* UIACollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIACollectionView.h; sourceTree = "<group>"; };
+		84CFFEC31A1E084F0017CA5A /* UIAEditingMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAEditingMenu.h; sourceTree = "<group>"; };
+		84CFFEC41A1E084F0017CA5A /* UIAElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElement.h; sourceTree = "<group>"; };
+		84CFFEC51A1E084F0017CA5A /* UIAElementArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementArray.h; sourceTree = "<group>"; };
+		84CFFEC61A1E084F0017CA5A /* UIAElementNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementNil.h; sourceTree = "<group>"; };
+		84CFFEC71A1E084F0017CA5A /* UIAElementSynonym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAElementSynonym.h; sourceTree = "<group>"; };
+		84CFFEC81A1E084F0017CA5A /* UIAHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAHost.h; sourceTree = "<group>"; };
+		84CFFEC91A1E084F0017CA5A /* UIAImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAImage.h; sourceTree = "<group>"; };
+		84CFFECA1A1E084F0017CA5A /* UIAKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAKey.h; sourceTree = "<group>"; };
+		84CFFECB1A1E084F0017CA5A /* UIAKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAKeyboard.h; sourceTree = "<group>"; };
+		84CFFECC1A1E084F0017CA5A /* UIALink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIALink.h; sourceTree = "<group>"; };
+		84CFFECD1A1E084F0017CA5A /* UIALocalizedValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIALocalizedValue.h; sourceTree = "<group>"; };
+		84CFFECE1A1E084F0017CA5A /* UIAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAMapView.h; sourceTree = "<group>"; };
+		84CFFECF1A1E084F0017CA5A /* UIANavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIANavigationBar.h; sourceTree = "<group>"; };
+		84CFFED01A1E084F0017CA5A /* UIAPageIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPageIndicator.h; sourceTree = "<group>"; };
+		84CFFED11A1E084F0017CA5A /* UIAPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPicker.h; sourceTree = "<group>"; };
+		84CFFED21A1E084F0017CA5A /* UIAPickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPickerWheel.h; sourceTree = "<group>"; };
+		84CFFED31A1E084F0017CA5A /* UIAPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAPopover.h; sourceTree = "<group>"; };
+		84CFFED41A1E084F0017CA5A /* UIAProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAProgressIndicator.h; sourceTree = "<group>"; };
+		84CFFED51A1E084F0017CA5A /* UIARecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARecorder.h; sourceTree = "<group>"; };
+		84CFFED61A1E084F0017CA5A /* UIARecorderAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARecorderAction.h; sourceTree = "<group>"; };
+		84CFFED71A1E084F0017CA5A /* UIARemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARemote.h; sourceTree = "<group>"; };
+		84CFFED81A1E084F0017CA5A /* UIAScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAScreen.h; sourceTree = "<group>"; };
+		84CFFED91A1E084F0017CA5A /* UIAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAScrollView.h; sourceTree = "<group>"; };
+		84CFFEDA1A1E084F0017CA5A /* UIASearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASearchBar.h; sourceTree = "<group>"; };
+		84CFFEDB1A1E084F0017CA5A /* UIASecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASecureTextField.h; sourceTree = "<group>"; };
+		84CFFEDC1A1E084F0017CA5A /* UIASegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASegmentedControl.h; sourceTree = "<group>"; };
+		84CFFEDD1A1E084F0017CA5A /* UIASlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASlider.h; sourceTree = "<group>"; };
+		84CFFEDE1A1E084F0017CA5A /* UIAStaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAStaticText.h; sourceTree = "<group>"; };
+		84CFFEDF1A1E084F0017CA5A /* UIAStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAStatusBar.h; sourceTree = "<group>"; };
+		84CFFEE01A1E084F0017CA5A /* UIASwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASwitch.h; sourceTree = "<group>"; };
+		84CFFEE11A1E084F0017CA5A /* UIASyntheticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASyntheticEvents.h; sourceTree = "<group>"; };
+		84CFFEE21A1E084F0017CA5A /* UIASyntheticStarkEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIASyntheticStarkEvents.h; sourceTree = "<group>"; };
+		84CFFEE31A1E084F0017CA5A /* UIATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATabBar.h; sourceTree = "<group>"; };
+		84CFFEE41A1E084F0017CA5A /* UIATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableCell.h; sourceTree = "<group>"; };
+		84CFFEE51A1E084F0017CA5A /* UIATableGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableGroup.h; sourceTree = "<group>"; };
+		84CFFEE61A1E084F0017CA5A /* UIATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATableView.h; sourceTree = "<group>"; };
+		84CFFEE71A1E084F0017CA5A /* UIATarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATarget.h; sourceTree = "<group>"; };
+		84CFFEE81A1E084F0017CA5A /* UIATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATextField.h; sourceTree = "<group>"; };
+		84CFFEE91A1E084F0017CA5A /* UIATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIATextView.h; sourceTree = "<group>"; };
+		84CFFEEA1A1E084F0017CA5A /* UIAToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAToolbar.h; sourceTree = "<group>"; };
+		84CFFEEB1A1E084F0017CA5A /* UIAWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAWebView.h; sourceTree = "<group>"; };
+		84CFFEEC1A1E084F0017CA5A /* UIAWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAWindow.h; sourceTree = "<group>"; };
+		84CFFEED1A1E084F0017CA5A /* UIAXElement-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAXElement-Protocol.h"; sourceTree = "<group>"; };
+		84CFFEEE1A1E084F0017CA5A /* UIAXElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAXElement.h; sourceTree = "<group>"; };
+		84CFFEEF1A1E0C550017CA5A /* UIAutomation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomation.h; sourceTree = "<group>"; };
 		C194253815D838BD004FC314 /* libPublicAutomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPublicAutomation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C194253B15D838BD004FC314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C194253F15D838BD004FC314 /* PublicAutomation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PublicAutomation-Prefix.pch"; sourceTree = "<group>"; };
-		C194254C15D83959004FC314 /* UIAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAutomation.h; sourceTree = "<group>"; };
 		C194254D15D839EC004FC314 /* UIAutomationBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutomationBridge.h; sourceTree = "<group>"; };
 		C194254E15D839EC004FC314 /* UIAutomationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutomationBridge.m; sourceTree = "<group>"; };
 		C194255015D83A1D004FC314 /* LoadableCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
@@ -54,6 +111,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CFFEB51A1E08410017CA5A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				84CFFEEF1A1E0C550017CA5A /* UIAutomation.h */,
+				84CFFEB61A1E084F0017CA5A /* CDStructures.h */,
+				84CFFEB71A1E084F0017CA5A /* NSArray-UIAExtras.h */,
+				84CFFEB81A1E084F0017CA5A /* NSCopying-Protocol.h */,
+				84CFFEB91A1E084F0017CA5A /* NSFastEnumeration-Protocol.h */,
+				84CFFEBA1A1E084F0017CA5A /* NSValue-UIAutomation.h */,
+				84CFFEBB1A1E084F0017CA5A /* UIAActionSheet.h */,
+				84CFFEBC1A1E084F0017CA5A /* UIAActivityIndicator.h */,
+				84CFFEBD1A1E084F0017CA5A /* UIAActivityView.h */,
+				84CFFEBE1A1E084F0017CA5A /* UIAAlert.h */,
+				84CFFEBF1A1E084F0017CA5A /* UIAApplication.h */,
+				84CFFEC01A1E084F0017CA5A /* UIAButton.h */,
+				84CFFEC11A1E084F0017CA5A /* UIACollectionCell.h */,
+				84CFFEC21A1E084F0017CA5A /* UIACollectionView.h */,
+				84CFFEC31A1E084F0017CA5A /* UIAEditingMenu.h */,
+				84CFFEC41A1E084F0017CA5A /* UIAElement.h */,
+				84CFFEC51A1E084F0017CA5A /* UIAElementArray.h */,
+				84CFFEC61A1E084F0017CA5A /* UIAElementNil.h */,
+				84CFFEC71A1E084F0017CA5A /* UIAElementSynonym.h */,
+				84CFFEC81A1E084F0017CA5A /* UIAHost.h */,
+				84CFFEC91A1E084F0017CA5A /* UIAImage.h */,
+				84CFFECA1A1E084F0017CA5A /* UIAKey.h */,
+				84CFFECB1A1E084F0017CA5A /* UIAKeyboard.h */,
+				84CFFECC1A1E084F0017CA5A /* UIALink.h */,
+				84CFFECD1A1E084F0017CA5A /* UIALocalizedValue.h */,
+				84CFFECE1A1E084F0017CA5A /* UIAMapView.h */,
+				84CFFECF1A1E084F0017CA5A /* UIANavigationBar.h */,
+				84CFFED01A1E084F0017CA5A /* UIAPageIndicator.h */,
+				84CFFED11A1E084F0017CA5A /* UIAPicker.h */,
+				84CFFED21A1E084F0017CA5A /* UIAPickerWheel.h */,
+				84CFFED31A1E084F0017CA5A /* UIAPopover.h */,
+				84CFFED41A1E084F0017CA5A /* UIAProgressIndicator.h */,
+				84CFFED51A1E084F0017CA5A /* UIARecorder.h */,
+				84CFFED61A1E084F0017CA5A /* UIARecorderAction.h */,
+				84CFFED71A1E084F0017CA5A /* UIARemote.h */,
+				84CFFED81A1E084F0017CA5A /* UIAScreen.h */,
+				84CFFED91A1E084F0017CA5A /* UIAScrollView.h */,
+				84CFFEDA1A1E084F0017CA5A /* UIASearchBar.h */,
+				84CFFEDB1A1E084F0017CA5A /* UIASecureTextField.h */,
+				84CFFEDC1A1E084F0017CA5A /* UIASegmentedControl.h */,
+				84CFFEDD1A1E084F0017CA5A /* UIASlider.h */,
+				84CFFEDE1A1E084F0017CA5A /* UIAStaticText.h */,
+				84CFFEDF1A1E084F0017CA5A /* UIAStatusBar.h */,
+				84CFFEE01A1E084F0017CA5A /* UIASwitch.h */,
+				84CFFEE11A1E084F0017CA5A /* UIASyntheticEvents.h */,
+				84CFFEE21A1E084F0017CA5A /* UIASyntheticStarkEvents.h */,
+				84CFFEE31A1E084F0017CA5A /* UIATabBar.h */,
+				84CFFEE41A1E084F0017CA5A /* UIATableCell.h */,
+				84CFFEE51A1E084F0017CA5A /* UIATableGroup.h */,
+				84CFFEE61A1E084F0017CA5A /* UIATableView.h */,
+				84CFFEE71A1E084F0017CA5A /* UIATarget.h */,
+				84CFFEE81A1E084F0017CA5A /* UIATextField.h */,
+				84CFFEE91A1E084F0017CA5A /* UIATextView.h */,
+				84CFFEEA1A1E084F0017CA5A /* UIAToolbar.h */,
+				84CFFEEB1A1E084F0017CA5A /* UIAWebView.h */,
+				84CFFEEC1A1E084F0017CA5A /* UIAWindow.h */,
+				84CFFEED1A1E084F0017CA5A /* UIAXElement-Protocol.h */,
+				84CFFEEE1A1E084F0017CA5A /* UIAXElement.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		C194252D15D838BD004FC314 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +204,7 @@
 		C194253D15D838BD004FC314 /* PublicAutomation */ = {
 			isa = PBXGroup;
 			children = (
+				84CFFEB51A1E08410017CA5A /* Headers */,
 				C1FFB24815DCCECC00CACB04 /* PALoader.m */,
 				F8D883FA18229E9400CC7C38 /* PALogging.h */,
 				C194256415D949CE004FC314 /* CGGeometry-KIFAdditions.h */,
@@ -90,7 +213,6 @@
 				C194255015D83A1D004FC314 /* LoadableCategory.h */,
 				C194254D15D839EC004FC314 /* UIAutomationBridge.h */,
 				C194254E15D839EC004FC314 /* UIAutomationBridge.m */,
-				C194254C15D83959004FC314 /* UIAutomation.h */,
 				C194253E15D838BD004FC314 /* Supporting Files */,
 			);
 			path = PublicAutomation;
